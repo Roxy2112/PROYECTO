@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Menú</h1>
+        <ul class="list-group">
+            {% for nombre, precio in menu.items() %}
+                <li class="list-group-item">
+                    {{ nombre }} - ${{ precio }}
+                    <a href="{{ url_for('actualizar_plato', nombre=nombre) }}" class="btn btn-primary btn-sm float-right ml-2">Actualizar</a>
+                    <a href="{{ url_for('eliminar_plato', nombre=nombre) }}" class="btn btn-danger btn-sm float-right">Eliminar</a>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary mt-4">Regresar</a>
+    </div>
+</body>
+</html>

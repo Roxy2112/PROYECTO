@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Factura</h1>
+        <ul class="list-group">
+            {% for pedido in pedidos %}
+                <li class="list-group-item">
+                    {{ pedido['cantidad'] }} x {{ pedido['nombre'] }} - ${{ pedido['precio'] }}
+                </li>
+            {% endfor %}
+        </ul>
+        <h3 class="mt-4">Total: ${{ total }}</h3>
+        <a href="{{ url_for('index') }}" class="btn btn-primary mt-4">Regresar al Inicio</a>
+    </div>
+</body>
+</html>
