@@ -1,8 +1,8 @@
-### Buenas profe como esta?
+# Buenas profe como esta?
 
 ## Este READNME, es para que pueda comprender todo para comenzar 
 
-# Tengo dos puntos que debrria tomar en cuenta a la hora de ver todo:
+### Tengo dos puntos que debrria tomar en cuenta a la hora de ver todo:
 
 -----------------------------------------------------------------------------------------------------------------
 
