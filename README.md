@@ -2,7 +2,7 @@
 
 ## Este README, es para que pueda comprender todo para comenzar 
 
-### Tengo dos puntos que debrria tomar en cuenta a la hora de ver todo:
+### Tengo tres puntos que deberia tomar en cuenta a la hora de ver todo:
 
 -----------------------------------------------------------------------------------------------------------------
 
