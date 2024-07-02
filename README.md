@@ -26,7 +26,7 @@
    2. Descarga el instalador para tu sistema operativo.
 Durante la instalación, asegúrate de marcar la opción "Add Python to PATH".
 
-      # Paso 2: Verificar Instalación de Python y pip
+    # Paso 2: Verificar Instalación de Python y pip
    Abre una terminal (PowerShell o Símbolo del sistema) y ejecuta:
 
       python --version
