@@ -21,7 +21,7 @@
       # Paso 1: Instalar Python y Añadirlo al PATH
    Si no tienes Python instalado, sigue estos pasos:
 
-   -Descargar e Instalar Python:
+   Descargar e Instalar Python:
    -Ve a python.org.
    -Descarga el instalador para tu sistema operativo.
 Durante la instalación, asegúrate de marcar la opción "Add Python to PATH".
