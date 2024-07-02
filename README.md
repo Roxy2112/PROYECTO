@@ -22,8 +22,8 @@
    Si no tienes Python instalado, sigue estos pasos:
 
    Descargar e Instalar Python:
-   -Ve a python.org.
-   -Descarga el instalador para tu sistema operativo.
+   1. Ve a python.org.
+   2. Descarga el instalador para tu sistema operativo.
 Durante la instalación, asegúrate de marcar la opción "Add Python to PATH".
 
       # Paso 2: Verificar Instalación de Python y pip
