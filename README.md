@@ -16,6 +16,28 @@
 2. Para poder probar el programa Python, debe ejecutar el archivo main.py, este archivo contiene todo sobre el
    programa
 
+3. Deberia instalar el Flask en el visual studio si no lo tiene, por si acaso le dare un paso por paso de como instalarlo
+
+      # Paso 1: Instalar Python y Añadirlo al PATH
+   Si no tienes Python instalado, sigue estos pasos:
+
+   -Descargar e Instalar Python:
+   -Ve a python.org.
+   -Descarga el instalador para tu sistema operativo.
+Durante la instalación, asegúrate de marcar la opción "Add Python to PATH".
+
+      # Paso 2: Verificar Instalación de Python y pip
+   Abre una terminal (PowerShell o Símbolo del sistema) y ejecuta:
+
+      python --version
+      pip --version
+Deberías ver las versiones instaladas de Python y pip. Si no las ves, asegúrate de que Python está en el PATH como se explicó      anteriormente.
+
+      # Paso 3: Instalar Flask
+   Una vez que Python y pip están correctamente instalados, instala Flask ejecutando:
+
+   pip install flask
+
 -------------------------------------------------------------------------------------------------------------------
 
    Y sin mas nada que agregar solo le queda disfrutar tanto del programa ( que se encuentra en el main.py ) como 
